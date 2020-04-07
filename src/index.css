@@ -1,13 +1,36 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-color: #cfcfcd;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.top-pizzas-table {
+  border: 2px solid #333;
+  border-radius: 2px;
+  color: #fff;
+}
+.top-pizzas-table__head__rank,
+.top-pizzas-table__body__pizza__rank {
+  background-color: #ba324f;
+}
+.top-pizzas-table__body__pizza__toppings,
+.top-pizzas-table__head__toppings {
+  background-color: #415a77;
+}
+.top-pizzas-table__body__pizza__count,
+.top-pizzas-table__head__count {
+  background-color: #7d70ba;
+}
+.top-pizzas-table__head__title {
+  background-color: #333;
+  font-size: 32px;
+}
+.top-pizzas-table__head__rank,
+.top-pizzas-table__head__toppings,
+.top-pizzas-table__head__count {
+  font-size: 24px;
+}
+td {
+  padding: 8px 24px;
+  font-size: 18px;
 }
